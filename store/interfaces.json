@@ -1,5 +1,5 @@
 {
-    "theme-text": {
-        "component": "Text"
-    }
+  "buy-button.buscaintegrada": {
+    "component": "BuyButton"
+  }
 }

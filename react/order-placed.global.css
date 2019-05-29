@@ -1,0 +1,84 @@
+.render-container.order, .render-container.render-route-store-orderplaced {
+  background: #000;
+}
+
+.render-container.render-route-store-orderplaced .flex.flex-grow-1.w-100.flex-column {
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+.render-container.render-route-store-orderplaced [data-testid='warnings-section'] {
+  display: none;
+}
+
+.render-container.render-route-store-orderplaced [data-testid='warnings-section'] ul {
+  padding: 0;
+  border: 1px solid #dce6f1;
+  background: #e7eef5;
+}
+
+.render-container.render-route-store-orderplaced [data-testid='warnings-section'] ul li {
+  margin: 0;
+  width: auto;
+}
+
+.render-container.render-route-store-orderplaced [data-testid='warnings-section'] ul li p {
+  border-top: 1px solid #dce6f1;
+  margin: 0;
+  padding: 0.5rem 1rem;
+}
+
+.render-container.render-route-store-orderplaced [data-testid='warnings-section'] ul li:first-child p {
+  border: none;
+}
+
+.render-container.render-route-store-orderplaced header .center.mt5.t-body.tc.c-muted-1.lh-copy.w-90.center,
+.render-container.render-route-store-orderplaced header .flex.justify-center.t-action.mv8.w-90.center {
+  display: none;
+}
+
+.render-container.render-route-store-orderplaced main .mv6.w-80-ns.w-90.center {
+  max-width: 60rem;
+}
+
+.render-container.render-route-store-orderplaced main .t-heading-3.lh-copy {
+  color: #183b56;
+}
+
+.render-container.render-route-store-orderplaced main .mv8.flex-l.justify-between.flex-column.flex-row-m {
+  margin: 0;
+}
+
+.render-container.render-route-store-orderplaced main .pb8-s.mr9-m {
+  padding-bottom: 2rem;
+}
+
+.render-container.render-route-store-orderplaced main article a p {
+  margin: 0;
+}
+
+.render-container.render-route-store-orderplaced main article img {
+  width: auto;
+  height: auto;
+  max-width: 3rem;
+}
+
+.render-container.render-route-store-orderplaced main [data-testid='shipping-header'] {
+  margin-bottom: 1rem;
+}
+
+.render-container.render-route-store-orderplaced main [data-testid='shipping-header'] small {
+  display: block;
+}
+
+.render-container.render-route-store-orderplaced main [data-testid='shipping-header'] br {
+  display: none;
+}
+
+.render-container.render-route-store-orderplaced main .address-summary {
+  font-size: 0.8rem;
+}
+
+.render-container.render-route-store-orderplaced main .flex-l.justify-end.pl6-l.w-100 .flex.justify-between.items-center.c-on-base * {
+  font-size: 1rem;
+}
