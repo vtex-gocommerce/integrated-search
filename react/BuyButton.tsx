@@ -15,10 +15,14 @@ class BuyButton extends React.Component<{}, BuyButtonState> {
       .then(res => {
         const product = res.data;
         if(product && product.length > 0) {
-          const prodURL = product[0].SellerUrl
-          prodURL && this.setState({
-            prodUrl: prodURL
-          });
+          const prodURL = product[0].SellerUrl && product[0].SellerUrl[0]
+          if(prodURL) {
+            const prodURLNew = new URL(prodURL)
+            const carrinhoURL = `${prodURLNew.protocol}//${prodURLNew.host}/carrinho/produto/${product[0].productId}/adicionar`
+            this.setState({
+              prodUrl: product.length === 1 ? carrinhoURL : prodURL
+            });
+          }
         }
       })
   }
