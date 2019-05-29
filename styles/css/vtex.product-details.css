@@ -1,0 +1,95 @@
+.container {
+  padding-top: 2rem;
+}
+
+.container > div > article > :global(.flex.flex-wrap) {
+  margin-top: 1rem;
+}
+
+.nameContainer {
+  margin-bottom: 1rem;
+}
+
+.nameContainer [class*='productNameContainer'],
+.nameContainer [class*='productBrand'] {
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+
+.priceContainer div[class*='listPriceLabel'],
+.priceContainer div[class*='listPriceValue'] {
+  color: #a1a6ad;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 19px;
+  padding: 0;
+}
+
+.priceContainer div[class*='sellingPriceLabel'] {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.priceContainer div[class*='sellingPrice '] {
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 2.25rem;
+  margin-bottom: 5px;
+}
+
+.priceContainer div[class*='installmentsPrice'],
+.priceContainer div[class*='installmentsPrice'] span,
+.priceContainer div[class*='savingPriceValue'] {
+  color: #a1a6ad;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.detailsContainer button:global(.vtex-button.t-action) {
+  width: auto;
+  border-radius: 4px;
+  font-weight: 600;
+  height: 60px;
+  text-transform: capitalize;
+  margin-top: -20px;
+  border-color: transparent;
+  width: 100%;
+  transition: background-color .2s ease;
+  background: #8bc34a;
+}
+
+.informationsContainer > :global(.flex.justify-between) {
+  display: block;
+}
+
+.informationsContainer :global(.t-heading-5) {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.informationsContainer [class*='productDescriptionContainer'] p {
+  color: #142032;
+  font-size: 0.875rem;
+  line-height: 24px;
+}
+
+.informationsContainer [class*='productDescriptionContainer'] :global(.relative) {
+  height: auto !important;
+  overflow: initial !important;
+}
+
+.informationsContainer [class*='pointerEventsNone'] {
+  display: none;
+}
+
+.informationsContainer [class*='specificationsTableContainer'] {
+  padding: 0;
+}
+
+.informationsContainer [class*='specificationsTable'] {
+  margin-top: 14px;
+}

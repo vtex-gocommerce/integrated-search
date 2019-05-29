@@ -1,0 +1,33 @@
+{
+  "vendor": "gc-mxo4581",
+  "name": "integratedsearch-theme",
+  "version": "1.0.6",
+  "title": "Integrated Search Theme",
+  "description": "",
+  "mustUpdateAt": "2019-10-24",
+  "builders": {
+    "styles": "1.x",
+    "store": "0.x",
+    "react": "3.x"
+  },
+  "dependencies": {
+    "gocommerce.institutional-page": "1.x",
+    "vtex.store-graphql": "2.x",
+    "vtex.store": "2.x",
+    "vtex.carousel": "2.x",
+    "vtex.styleguide": "9.x",
+    "vtex.product-summary": "2.x",
+    "vtex.search-result": "3.x",
+    "vtex.product-details": "1.x",
+    "vtex.store-components": "3.x",
+    "vtex.breadcrumb": "1.x",
+    "vtex.menu": "2.x",
+    "vtex.store-header": "2.x",
+    "vtex.login": "2.x",
+    "vtex.category-menu": "2.x",
+    "vtex.shelf": "1.x",
+    "vtex.store-footer": "2.x",
+    "vtex.minicart": "2.x",
+    "vtex.rich-text": "0.x"
+  }
+}

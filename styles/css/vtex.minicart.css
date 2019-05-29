@@ -1,0 +1,91 @@
+.label {
+  text-transform: capitalize;
+}
+
+.container > [class*='vtex-button'] svg {
+  color: #211E2A;
+}
+
+.sidebarHeader > div {
+  display: none;
+}
+
+.sidebarHeader [class*='label'] {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sidebar [class*='productBrand'],
+.container [class*='productBrand'] {
+  font-weight: 600;
+}
+
+.sidebar [class*='imageContainer'],
+.container [class*='imageContainer'] {
+  width: 80px;
+  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.sidebar [class*='information'] > :global(.mt3.nr2),
+.container [class*='information'] > :global(.mt3.nr2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar [class*='information'] > :global(.mt3.nr2) > div,
+.container [class*='information'] > :global(.mt3.nr2) > div {
+  display: block;
+  height: auto;
+}
+
+.sidebar [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-2.flex-none) button,
+.sidebar [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button,
+.container [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-2.flex-none) button,
+.container [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button {
+  background: #fff;
+  border: 1px solid #e3e4e6;
+  font-size: 0.9rem;
+  padding: 0 15px;
+}
+
+.sidebar [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button:global(.c-disabled),
+.container [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button:global(.c-disabled) {
+  background: #ededed;
+  color: #b6b7b8;
+}
+
+.sidebar [class*='information'] > :global(.mt3.nr2) :global(.order-1),
+.container [class*='information'] > :global(.mt3.nr2) :global(.order-1) {
+  padding: 0 15px;
+  border-top: 1px solid #e3e4e6;
+  border-bottom: 1px solid #e3e4e6;
+}
+
+.sidebar [class*='information'] [class*='sellingPrice'],
+.container [class*='information'] [class*='sellingPrice'] {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contentFooter > div {
+  width: 100%;
+}
+
+.contentPrice {
+  width: auto !important;
+}
+
+.contentDiscount {
+  justify-content: space-between;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.contentFooter [class*='vtex-button'] {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+}

@@ -1,0 +1,424 @@
+{
+  "store.home": {
+    "blocks": [ "rich-text#title", "rich-text#cat1", "rich-text#cat2" ],
+    "parent": {
+      "header": "header-row#3-desktop"
+    }
+  },
+  "store.product": {
+    "blocks": ["product-details#default", "product-kit", "shelf.relatedProducts"]
+  },
+  "store.search": {
+    "blocks": ["search-result"]
+  },
+  "store.search#brand": {
+    "blocks": ["search-result"]
+  },
+  "store.search#department": {
+    "blocks": ["search-result#department"]
+  },
+  "store.search#category": {
+    "blocks": ["search-result"]
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result"]
+  },
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.login": {
+    "blocks": ["login-content#default"]
+  },
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header#home": {
+    "blocks": [
+      "header-layout.desktop#1"
+    ]
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-desktop"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#1-desktop"
+    ]
+  },
+  "header-layout.desktop#1": {
+    "children": [
+      "header-row#3-desktop"
+    ]
+  },
+  "header-row#1-desktop": {
+    "children": [
+      "logo",
+      "header-spacer",
+      "search-bar"
+    ]
+  },
+  "header-row#3-desktop": {
+    "children": [
+      "rich-text#create",
+      "logo",
+      "rich-text",
+      "search-bar"
+    ],
+    "props": {
+      "fullWidth": true,
+      "blockClass": "foo"
+    }
+  },
+  "search-bar": {
+    "props": {
+      "placeholder": "Buscar por produtos e mais..."
+    }
+  },
+  "logo": {
+    "props": {
+      "width": 240,
+      "height": 41,
+      "url": "https://gc-mxo4581.vteximg.com.br/assets/gocommerce/png/logo___66b2f1bd23be8432d71a45c07a9c7899.png",
+      "href": "/"
+    }
+  },
+  "rich-text": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Encontre em mais de \n*3 milhões* de produtos",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-5",
+      "blockClass": "cta"
+    }
+  },
+  "rich-text#create": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Comece a vender](http://bra.gocommerce.com/)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "button"
+    }
+  },
+  "rich-text#more": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Saiba mais](#)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "more"
+    }
+  },
+
+  "rich-text#title": {
+    "props": {
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "text": "Os produtos mais *buscados* :)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "title"
+    }
+  },
+
+  "rich-text#cat1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Camisetas](https://www.buscaintegrada.com/camiseta?map=ft)[Capinhas](https://www.buscaintegrada.com/capinha?map=ft)[Tênis](https://www.buscaintegrada.com/tenis?map=ft)[Batom](https://www.buscaintegrada.com/batom?map=ft)[Luminária](https://www.buscaintegrada.com/luminaria?map=ft)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "cat"
+    }
+  },
+  "rich-text#cat2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Papel de parede](https://www.buscaintegrada.com/papel%20de%20parede?map=ft)[Xbox](https://www.buscaintegrada.com/xbox?map=ft)[PlayStation 4](https://www.buscaintegrada.com/ps4?map=ft)[Suplementos](https://www.buscaintegrada.com/suplemento?map=ft)[Vestidos](https://www.buscaintegrada.com/vestido?map=ft)",
+      "textColor": "c-on-emphasis",
+      "font": "t-heading-6",
+      "blockClass": "cat2"
+    }
+  },
+
+  "login": {
+    "props": {
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": false,
+      "showPromotionCategory": true
+    }
+  },
+  "minicart": {
+    "blocks": ["product-summary"],
+    "props": {
+      "type": "sidebar",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "Your cart is empty!",
+      "labelButtonFinishShopping": "Go to Checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10
+    }
+  },
+  "footer": {
+    "props": {
+      "showPaymentFormsInColor": true,
+      "showSocialNetworksInColor": true,
+      "showVtexLogoInColor": false,
+      "socialNetworks": [
+      ],
+      "sectionLinks": [
+        {
+          "__editorItemTitle": "Institucional",
+          "title": "Institutional",
+          "links": [
+            {
+              "__editorItemTitle": "Terms and conditions",
+              "title": "Terms and conditions",
+              "url": "/page-institutional",
+              "target": "_self"
+            }
+          ]
+        }
+      ],
+      "badges": [],
+      "paymentForms": [
+        {
+          "paymentTypes": []
+        }
+      ],
+      "storeInformations": [
+        {
+          "__editorItemTitle": "Busca Integrada info",
+          "storeInformation": "A Busca Integrada é um serviço de buscas inteligente, que reúne milhões de produtos dos mais diversos segmentos de lojas virtuais em um único lugar e em poucos cliques"
+        },
+        {
+          "__editorItemTitle": "Address",
+          "storeInformation": ""
+        }
+      ]
+    }
+  },
+  "carousel#home": {
+    "props": {
+      "autoplay": true,
+      "autoplaySpeed": 4,
+      "banners": [
+        {
+          "image": "https://static.gocommerce.com/gc-xkd5171/assets/gocommerce/jpg/banner-provisorio___9da646932335e14fb309d8bc56b1c93a.jpg"
+        }
+      ],
+      "height": 440,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+  "shelf#home": {
+    "blocks": ["product-summary"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Grandes ofertas",
+        "summary": {
+          "displayBuyButton": "displayButtonHover",
+          "isOneClickBuy": true,
+          "showBadge": true,
+          "badgeText": "OFF",
+          "buyButtonText": "Ver detalhes",
+          "showCollections": false,
+          "showListPrice": true,
+          "showLabels": true,
+          "showInstallments": true,
+          "showSavings": false,
+          "name": {
+            "showBrandName": true,
+            "showSku": false,
+            "showProductReference": false
+          }
+        }
+      }
+    }
+  },
+  "shelf#home2": {
+    "blocks": ["product-summary"],
+    "props": {
+      "orderBy": "OrderByPriceASC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Mais baratos",
+        "summary": {
+          "displayBuyButton": "displayButtonHover",
+          "isOneClickBuy": true,
+          "showBadge": true,
+          "badgeText": "OFF",
+          "buyButtonText": "Ver detalhes",
+          "showCollections": false,
+          "showListPrice": true,
+          "showLabels": true,
+          "showInstallments": true,
+          "showSavings": false,
+          "name": {
+            "showBrandName": true,
+            "showSku": false,
+            "showProductReference": false
+          }
+        }
+      }
+    }
+  },
+  "product-details#default": {
+    "blocks": [
+      "breadcrumb",
+      "product-name",
+      "product-images",
+      "product-price",
+      "product-description",
+      "product-specifications",
+      "buy-button",
+      "sku-selector",
+      "availability-subscriber" 
+    ],
+    "props": {
+      "displayVertically": false,
+      "share": {
+        "social": {
+          "Facebook": true,
+          "Twitter": true,
+          "WhatsApp": true
+        }
+      },
+      "price": {
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": true,
+        "showSavings": true
+      },
+      "name": {
+        "showBrandName": false,
+        "showSku": false,
+        "showProductReference": false
+      }
+    }
+  },
+  "search-result": {
+    "blocks": [ "filter-navigator.v2", "gallery", "not-found", "breadcrumb", "order-by", "total-products"],
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 2,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "hiddenFacets": {
+        "layoutMode1": "normal",
+        "layoutMode2": "small",
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "__editorItemTitle": "editor.search-result.hiddenFacets.specificationFilters.hiddenFilter"
+            }
+          ]
+        }
+      },
+      "summary": {
+        "isOneClickBuy": false,
+        "showBadge": true,
+        "displayBuyButton": "displayButtonHover",
+        "buyButtonText": "Add to cart",
+        "showCollections": false,
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": false,
+        "showSavings": false,
+        "name": {
+          "showBrandName": false,
+          "showSku": false,
+          "showProductReference": false
+        }
+      },
+      "pagination": "infinity-scroll"
+    }
+  },
+  "search-result#department": {
+    "blocks": [ "filter-navigator", "gallery", "not-found", "breadcrumb", "order-by", "total-products"],
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 2,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "hiddenFacets": {
+        "layoutMode1": "normal",
+        "layoutMode2": "small",
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "__editorItemTitle": "editor.search-result.hiddenFacets.specificationFilters.hiddenFilter"
+            }
+          ]
+        }
+      },
+      "summary": {
+        "isOneClickBuy": false,
+        "showBadge": true,
+        "displayBuyButton": "displayButtonHover",
+        "buyButtonText": "Add to cart",
+        "showCollections": false,
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": false,
+        "showSavings": false,
+        "name": {
+          "showBrandName": false,
+          "showSku": false,
+          "showProductReference": false
+        }
+      },
+      "pagination": "infinity-scroll"
+    }
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "store.home.custom#page-institutional": {
+    "blocks": ["institutional-page"],
+    "props": {
+      "headline": "Institutional Page",
+      "html": "<span class=\"t-heading-3\">Institutional Page</span> <br/><br/>Institutional Page example<br/><br/>"
+    }
+  }
+}

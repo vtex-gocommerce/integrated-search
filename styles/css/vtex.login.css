@@ -1,0 +1,49 @@
+.label {
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.formTitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding-top: 0;
+  color: #a1a6ad;
+  text-transform: uppercase;
+}
+
+.container > div > [class*='vtex-button'] svg {
+  color: #000;
+}
+
+.contentContainer,
+.arrowUp {
+  border: 1px solid #e3e4e6;
+  box-shadow: none;
+}
+
+.button button {
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.sendButton > button {
+  border-radius: 4px;
+}
+
+.sendButton > button span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.backButton > button span,
+.formLinkContainer a {
+  font-size: 1rem;
+}
+
+.inputContainer input {
+  height: 44px;
+  border-width: 1px;
+  border-radius: 4px;
+}

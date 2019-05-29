@@ -1,0 +1,161 @@
+.topMenuContainer > div > div {
+  display: block;
+}
+
+.headerRow > div > div {
+  max-width: 96rem;
+  margin: 0 auto;
+}
+
+.headerRow > div {
+    background: #211E2A;
+}
+
+.headerRow--foo div[class*='searchBarContainer'] {
+  padding: 0 0 100px 0;
+  margin: 0 auto;
+}
+
+.topMenuContainer,
+.container > div > section {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+.container > div > div:global(.bb.bw1.b--muted-4) {
+  display: none;
+}
+
+.headerRow--foo div[class*='cta'] > div {
+  width: 100%;
+  text-align: left;
+}
+
+.topMenuCollapsible:global(.bw1) {
+  border-width: 1px;
+}
+
+.headerRow--foo > div > div > div:after {
+  display: none;
+}
+
+.headerRow--foo div[class*='cta'] {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+@media screen and (min-width: 40rem) {
+
+  .headerRow--foo > div > div > nav > section > ul > li > a {
+    color: #fff;
+    font-weight: 400;
+    padding: 33px 5px;
+    text-transform: uppercase;
+    font-size: .75rem;
+    /*width: 80px;
+    height: 80px;*/
+    border-color: transparent!important;
+    border-radius: .30rem;
+  }
+
+  .headerRow--foo  {
+    background-color: #211E2A;
+  }
+
+  .headerRow--foo > div > div > nav {
+    height: 120px;
+  }
+
+  .headerRow--foo > div > div {
+    height: 540px;
+    background-color: #211E2A;
+    max-width: 100%;
+    display: block;
+    text-align: center;
+    position: relative;
+  }
+
+  .topMenuContainer > div {
+    align-items: center;
+  }
+
+  .topMenuSearchBar {
+    padding: 0;
+  }
+
+  .topMenuSearchBar > :global(.w-75) {
+    width: 100%;
+  }
+
+  .headerRow--foo span[class*='logoContainer'] {
+    padding-top: 60px;
+    display: flex;
+  }
+
+  .headerRow--foo div[class*='--button'] + a {
+    max-width: 1100px;
+    display: block;
+    margin: 0 auto;
+  }
+
+} 
+
+
+@media screen and (max-width: 40rem) {
+
+  .headerRow--foo span[class*='logoContainer'] {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    left: 0;
+    right: 0;
+  }
+
+  .headerRow > div > section > div > a {
+    padding: 0;
+    align-items: center;
+    width: 50%;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .headerRow--foo div[class*='searchBarContainer']:before {
+    margin-bottom: 30px;
+    font-size: 14px;
+  }
+
+  .headerRow--foo div[class*='searchBarContainer'] {
+    padding: 0 20px;
+  }
+
+  .headerRow--foo span[class*='logoContainer'] {
+    display: block;
+    margin: 0 auto 0px;
+  }
+
+  .headerRow--foo > div > div {
+    display: block;
+    flex-wrap: wrap;
+  }
+
+  .headerRow--foo > div {
+     display: flex;
+     align-items: center;
+     height: 100%;
+  }
+
+  .headerRow--foo {
+    position: fixed;
+    height: 100%;
+    z-index: 10000000;
+    text-align: center;
+    width: 100%;
+  }
+
+  .headerRow--foo nav[class*='container'] {
+    display: none;
+  }
+
+}

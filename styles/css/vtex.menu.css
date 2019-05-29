@@ -1,0 +1,19 @@
+.container {
+  background: #211E2A;
+}
+
+.container > section {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.linkLeft,
+.linkRight {
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.linkRight:last-child {
+  margin-right: 0;
+}

@@ -1,0 +1,35 @@
+.container {
+  background: #363342;
+  display: flex;
+  align-items: center;
+}
+
+.container > section > ul {
+    min-height: 80px;
+}
+
+.container > section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container > ul {
+  height: 60px;
+}
+
+.itemContainer > section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.firstLevelLink {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.secondLevelLink {
+  font-size: 12px;
+  line-height: 30px;
+  padding-top: 0;
+  padding-bottom: 0;
+}

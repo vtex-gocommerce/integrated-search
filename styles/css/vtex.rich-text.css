@@ -1,0 +1,242 @@
+.container--title {
+    max-width: 1100px;
+    margin: 30px auto 0;
+    padding: 0 20px;
+}
+
+.container--title p[class*="paragraph"] {
+    color: #000;
+    font-size: 22px;
+}
+
+.container--title p[class*="paragraph"] span {
+    color: #ED2B47;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.container--cat [class*=link], .container--cat2 [class*=link] {
+    margin: 0 25px;
+    height: 170px;
+    display: inline-block;
+    width: 170px;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding: 110px 0 0 0;
+    transition: all .2s;
+    position: relative;
+}
+
+.container--cat [class*=link]:first-child::before {
+    content: "";
+    display: block;
+    background: url(https://static.gocommerce.com/gc-mxo4581/assets/gocommerce/svg/camiseta___c707d04f31e57d491de5dc5449324830.svg) center no-repeat;
+    width: 43px;
+    height: 42px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container--cat [class*=link]:nth-child(2)::before {
+    content: "";
+    display: block;
+    background: url(https://static.gocommerce.com/gc-mxo4581/assets/gocommerce/svg/capinha___56f5650ee2f3a4dd74736f69613e8fe1.svg) center no-repeat;
+    width: 43px;
+    height: 45px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container--cat [class*=link]:nth-child(3)::before {
+    content: "";
+    display: block;
+    background: url(https://static.gocommerce.com/gc-mxo4581/assets/gocommerce/svg/tenis___88b696eb50c58201e9abef7e8654a03b.svg) center no-repeat;
+    width: 58px;
+    height: 35px;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container--cat [class*=link]:nth-child(4)::before {
+    content: "";
+    display: block;
+    background: url(https://static.gocommerce.com/gc-mxo4581/assets/gocommerce/svg/batom___bb0a5ded4ab7eb15f42c1666c7efb71a.svg) center no-repeat;
+    width: 38px;
+    height: 45px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container--cat [class*=link]:nth-child(5)::before {
+    content: "";
+    display: block;
+    background: url(https://static.gocommerce.com/gc-mxo4581/assets/gocommerce/svg/luminaria___c652df3cddc0d052dc660a5e232e8d25.svg) center no-repeat;
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container--cat2 [class*=link]:first-child::before {
+    content: "";
+    display: block;
+    background: url(https://static.gocommerce.com/gc-mxo4581/assets/gocommerce/svg/papel-parede___f16df8507d1d825b49c6a18bf3786364.svg) center no-repeat;
+    width: 40px;
+    height: 45px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container--cat2 [class*=link]:nth-child(2)::before {
+    content: "";
+    display: block;
+    background: url(https://static.gocommerce.com/gc-mxo4581/assets/gocommerce/svg/xbox___87ee658cc4d0882ce848790877a18fc8.svg) center no-repeat;
+    width: 58px;
+    height: 30px;
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container--cat2 [class*=link]:nth-child(3)::before {
+    content: "";
+    display: block;
+    background: url(https://static.gocommerce.com/gc-mxo4581/assets/gocommerce/svg/ps4___4f31dbe89aecebe0e677784fa3e2daca.svg) center no-repeat;
+    width: 51px;
+    height: 45px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container--cat2 [class*=link]:nth-child(4)::before {
+    content: "";
+    display: block;
+    background: url(https://static.gocommerce.com/gc-mxo4581/assets/gocommerce/svg/suplemento___6c3359852673b980c49276c52b9f7215.svg) center no-repeat;
+    width: 31px;
+    height: 45px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container--cat2 [class*=link]:nth-child(5)::before {
+    content: "";
+    display: block;
+    background: url(https://static.gocommerce.com/gc-mxo4581/assets/gocommerce/svg/vestido___9fcf7b9440c4f3689b1cff28e99362f0.svg) center no-repeat;
+    width: 31px;
+    height: 45px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.container--cat [class*=link]:hover, .container--cat2 [class*=link]:hover {
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+}
+
+.container--cta [class*=paragraph] {
+    margin: 80px auto 30px;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.container--cta [class*=paragraph] > span {
+    font-weight: 600;
+    font-style: initial;
+    color: #ED2B47;
+}
+
+.container--button {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container--button [class*=paragraph] {
+    margin: 0;
+}
+
+.container--button [class*=paragraph] > a {
+    background-color: #363242;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 30px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    transition: all .2s;
+}
+
+.container--button [class*=paragraph] > a:hover {
+    background-color: #FFC20E;
+    color: #142032;
+}
+
+.container--more [class*=paragraph]> a {
+    font-size: 16px;
+    color: rgba(255,255,255,.5);
+    text-decoration: none;
+    margin-bottom: 60px;
+    display: block;
+}
+
+@media screen and (max-width: 40rem) {
+    
+.container--cta [class*=paragraph] {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.container--button {
+    width: 100%;
+    bottom: 20px;
+    position: absolute;
+}
+
+.container--button [class*=paragraph] > a {
+    right: 20px;
+    top: auto;
+    left: 20px;
+    bottom: 0px;
+}
+
+}

@@ -1,0 +1,27 @@
+.container {
+  padding-bottom: 15px;
+  margin-top: 3.5rem;
+}
+
+.title {
+  font-weight: 400;
+  color: #211E2A;
+  padding: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.container [class*='slick-dots'] {
+  display: none;
+}
+
+.arrowLeft {
+  left: -40px;
+}
+
+.arrowRight {
+  right: -40px;
+}
+
+.dotsContainer {
+  display: none;
+}

@@ -1,0 +1,84 @@
+.container {
+  padding-top: 1rem;
+}
+
+.orderBy > div > label > div {
+  border-width: 1px;
+  border-radius: 4px;
+}
+
+.orderBy div:global(.vtex-dropdown__arrow) {
+  color: #142032;
+}
+
+.totalProducts span {
+  font-size: 0.9rem;
+  color: #142032;
+}
+
+.resultGallery {
+  margin-top: 1rem;
+}
+
+/*.filterAvailable, .filterSelected {
+  padding: 0;
+}*/
+
+.filter {
+  border: none;
+  padding-bottom: 0;
+}
+
+.filters > div > div {
+  border: 0;
+  margin-bottom: 10px;
+}
+
+.filterTitle {
+  font-weight: 500;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.filterIcon svg {
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+
+.filter div:global(.ReactCollapse--content) {
+  padding: 10px 0 24px;
+}
+
+.filter div:global(.ReactCollapse--content) a {
+  line-height: 22px;
+}
+
+.filterContent label {
+  font-size: 12px;
+  color: #999;
+  line-height: 25px;
+}
+
+.filters svg[class*="icon-check"] {
+  position: relative;
+  top: 3px;
+}
+
+.filterAvailable + div div[class*="action-primary"] {
+  border: 0;
+}
+
+.filterSelected + div label[class*="c-on-base"] {
+  background-color: #ed2b47;
+  padding: 0 10px;
+  line-height: 28px;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.filterSelected + div div[class*="h1"] {
+  display: none;
+}
